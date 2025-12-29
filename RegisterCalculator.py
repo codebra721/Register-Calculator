@@ -96,6 +96,7 @@ class RegisterCalculator:
         
         try:
             # Use eval Calculate Formula
+            formula = formula.replace('^', '**')
             result = eval(formula, {"__builtins__": {}}, safe_dict)
             return result
         except Exception as e:
