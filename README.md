@@ -91,7 +91,7 @@ register-calculator/
 
 ## Screenshots
 
-![Main Interface](screenshots/main_GUI.png)
+![Main Interface](main_GUI.png)
 
 ---
 
